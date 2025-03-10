@@ -15,7 +15,7 @@ import Client, {
   import { TransactionFormatter } from "./utils/transaction-formatter";
   import pumpFunIdl from "./idls/pump_0.1.0.json";
   import { SolanaEventParser } from "./utils/event-parser";
-  import { bnLayoutFormatter } from "./utils/bn-layout-formatter";
+  import { bnLayoutFormatter } from "./utils/bn-layout-formatter.ts";
   import { transactionOutput } from "./utils/transactionOutput";
   import { getBondingCurveAddress } from "./utils/getBonding";
   import dotenv from "dotenv";
